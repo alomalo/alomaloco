@@ -1,0 +1,30 @@
+/*
+
+.image_set {
+    max-width: 600px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.image_set div {
+    background-color: white;
+    width: 100%;
+    display: none;
+}
+.image_set img {
+    width: 100%;
+    height: auto;
+}
+
+.next {
+    float: right;
+    right: 5px;
+}
+
+.prev {
+    float: left;
+    left: 5px;
+}
+
+ */
