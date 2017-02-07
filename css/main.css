@@ -253,7 +253,8 @@ a:-webkit-any-link {
 .caption {
     height:30%;
     width:60%;
-    line-height: 1em;
+    line-height: 1.8em;
+    overflow: scroll;
     font-size: .25em;
     position: absolute;
     margin:auto;
