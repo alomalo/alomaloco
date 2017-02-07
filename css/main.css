@@ -254,7 +254,6 @@ a:-webkit-any-link {
     height:30%;
     width:60%;
     line-height: 1.8em;
-    overflow: scroll;
     font-size: .25em;
     position: absolute;
     margin:auto;
