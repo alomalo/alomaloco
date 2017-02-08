@@ -265,6 +265,20 @@ a:-webkit-any-link {
     opacity:0;
 }
 
+.text_img {
+    height:50%;
+    width:60%;
+    line-height: 1.8em;
+    font-size: .25em;
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    text-align: left;
+}
+
 .project_img:hover .screen {
     opacity:0.8;
     filter:alpha(opacity=80);
