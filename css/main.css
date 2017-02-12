@@ -97,6 +97,7 @@ textarea {
 body{
     height:100%;
     width:100%;
+    overflow-x: hidden;
 }
 
 .entry {
@@ -190,6 +191,51 @@ a:-webkit-any-link {
     left: 0;
     z-index: 1000;
     margin: auto;
+}
+
+.prev img, .next img {
+    height: .8em;
+}
+
+.prev a, .next a {
+    position: relative;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.2em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    bottom: 100%;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.left-tooltip {
+    margin-left: -35px;
+    left: 50%;
+}
+
+.right-tooltip {
+    margin-right: -35px;
+    right: 50%;
+}
+
+a:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 .container {
@@ -311,10 +357,17 @@ a:-webkit-any-link {
     transition: all 0.2s ease-in-out;
 }
 
-.n, .nn, .p, .pp {
+.n, .nn {
     cursor:pointer;
 }
 
+.p {
+    cursor:pointer;
+}
+
+.pp {
+    cursor:pointer;
+}
 ::selection {
     background: none;
 }
