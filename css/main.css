@@ -265,6 +265,10 @@ a:-webkit-any-link {
     opacity:0;
 }
 
+.caption a{
+    font-weight: bold;
+}
+
 .text_img {
     overflow: auto;
     height:50%;
